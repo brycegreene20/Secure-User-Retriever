@@ -1,8 +1,6 @@
 # Secure-User-Retriever
 This project retrieves a list of VIP user IDs from the BADSEC server using three implementations: Python, Ruby, and Go. The project includes retry logic, error handling, and JSON-formatted output of the user IDs.
 
----
-
 ## **Project Structure**
 
 ```plaintext
@@ -17,8 +15,6 @@ noclist-project/
 ├── README.md                   # Documentation (this file)
 └── COMMENTS                    # Additional comments or instructions
 ```
-
----
 
 ## **What Was Done**
 
@@ -38,7 +34,6 @@ noclist-project/
    - Retries on transient network failures or non-200 HTTP responses.
    - Exit with non-zero status code on repeated failures.
 
----
 
 ## **Prerequisites**
 
@@ -53,8 +48,6 @@ noclist-project/
 3. **Tools**:
    - Access to a Unix-like command-line environment (Windows PowerShell, Linux Terminal, macOS Terminal).
 
----
-
 ## **How to Validate**
 
 ### **Step 1: Run the BADSEC Server**
@@ -66,8 +59,6 @@ noclist-project/
    ```plaintext
    Listening on http://0.0.0.0:8888
    ```
-
----
 
 ### **Step 2: Validate Each Implementation**
 
@@ -86,8 +77,6 @@ noclist-project/
      ["9757263792576857988", "7789651288773276582", "16283886502782682407"]
      ```
 
----
-
 #### **Ruby**
 1. Navigate to the Ruby directory:
    ```bash
@@ -102,8 +91,6 @@ noclist-project/
      ```json
      ["9757263792576857988", "7789651288773276582", "16283886502782682407"]
      ```
-
----
 
 #### **Go**
 1. Navigate to the Go directory:
@@ -124,8 +111,6 @@ noclist-project/
      ["9757263792576857988", "7789651288773276582", "16283886502782682407"]
      ```
 
----
-
 ## **Testing**
 
 ### **Manual Tests**
@@ -142,7 +127,6 @@ noclist-project/
 2. **Simulate Failures**:
    - Stop the Docker server and rerun the scripts to test retry logic.
 
----
 
 ## **Troubleshooting**
 
@@ -162,6 +146,4 @@ noclist-project/
 
 3. **Error: Checksum Mismatch**:
    - Verify that the checksum calculation is correct in the scripts.
-
----
  
