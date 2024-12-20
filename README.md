@@ -1,10 +1,4 @@
 # Secure-User-Retriever
-Here’s a detailed **README.md** file for your project, explaining what was done, how to validate, and test the implementation.
-
----
-
-# NOC List Project
-
 This project retrieves a list of VIP user IDs from the BADSEC server using three implementations: Python, Ruby, and Go. The project includes retry logic, error handling, and JSON-formatted output of the user IDs.
 
 ---
