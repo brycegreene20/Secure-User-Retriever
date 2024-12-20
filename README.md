@@ -6,14 +6,14 @@ This project retrieves a list of VIP user IDs from the BADSEC server using three
 ```plaintext
 noclist-project/
 ├── src/                        # Source code directory for all implementations
+│   └── go/                     # Go implementation
+│   |    └── noclist.go          # Go script
 │   ├── python/                 # Python implementation
 │   │   └── noclist.py          # Python script
 │   ├── ruby/                   # Ruby implementation
 │   │   └── noclist.rb          # Ruby script
-│   └── go/                     # Go implementation
-│       └── noclist.go          # Go script
 ├── README.md                   # Documentation (this file)
-└── COMMENTS                    # Additional comments or instructions
+
 ```
 
 ## **What Was Done**
